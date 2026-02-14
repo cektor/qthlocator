@@ -1,6 +1,6 @@
 # 📡 QTH Locator Premium - Privacy Policy
 
-**Son Güncelleme / Last Updated:** 14.02.2026
+**Son Güncelleme / Last Updated:** 14.02.2026 (Rev. 1.0.1)
 
 ---
 
@@ -28,10 +28,16 @@
 ### 1. Toplanan Bilgiler ve Kullanım Amaçları
 Uygulama, işlevlerini yerine getirebilmek için aşağıdaki izinleri ve verileri kullanır:
 
-* 📍 **Konum Verileri (Location):** * Uygulama, QTH Locator (Maidenhead Grid Square) hesaplaması yapmak, harita üzerinde konumunuzu göstermek ve diğer istasyonlara olan mesafeyi hesaplamak için **hassas konum verilerinizi (GPS)** kullanır.
-    * **Depolama:** Konum verileriniz sadece cihazınızda anlık olarak işlenir. Bu veriler sunucularımıza gönderilmez veya kaydedilmez.
-* 📷 **Kamera (Camera):** QR kodlarını taramak ve içeriklerini okumak için kullanılır. Görüntüler kaydedilmez.
-* 💾 **Depolama (Storage):** Oluşturulan QTH QR kodlarını galeriye kaydetmek için kullanılır.
+* 📍 **Konum İzni (ACCESS_FINE_LOCATION):**
+    * **Neden Gerekli?** Uygulamanın temel amacı olan Maidenhead Locator (QTH) hesaplaması, coğrafi koordinatlarınıza (enlem ve boylam) dayanır.
+    * **Kullanım:** GPS verileriniz, bulunduğunuz grid karesini hesaplamak, harita üzerinde konumunuzu göstermek ve diğer istasyonlarla aranızdaki mesafeyi ölçmek için kullanılır.
+    * **Güvenlik:** Konum verileri **sadece cihazınızda** anlık olarak işlenir. Sunucularımıza gönderilmez veya kaydedilmez.
+* 🌐 **İnternet Erişimi (INTERNET):**
+    * **Neden Gerekli?** Harita verilerini görüntülemek ve APRS sorguları yapabilmek için.
+    * **Kullanım:** OpenStreetMap sunucularından harita döşemelerini (tiles) indirmek ve APRS.fi API üzerinden istasyon bilgisi çekmek için kullanılır.
+* 💾 **Depolama ve Galeri (Storage / MediaStore):**
+    * **Neden Gerekli?** Uygulama içerisinde oluşturduğunuz QTH kartını (QR Kodlu görsel) cihazınıza kaydetmek için.
+    * **Kullanım:** Sadece "QR Kodu Kaydet" butonuna bastığınızda, oluşturulan görseli fotoğraf galerinize eklemek için kullanılır.
 
 ### 2. Üçüncü Taraf Hizmetleri
 * **OpenStreetMap (OSM):** Harita verileri için kullanılır.
@@ -57,10 +63,16 @@ Bu uygulama 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamaz.
 ### 1. Information Collection and Use
 The App uses the following permissions to function:
 
-* 📍 **Location Data:** * Uses **precise GPS data** to calculate your QTH Locator (Maidenhead Grid Square) and distances.
-    * **Storage:** Processed **locally on device only**. Not sent to servers.
-* 📷 **Camera:** Used for real-time QR code scanning. Images are not stored.
-* 💾 **Storage / Media:** Used to save generated QR codes to your gallery.
+* 📍 **Location Permission (ACCESS_FINE_LOCATION):**
+    * **Why Necessary?** The core function of calculating your Maidenhead Locator (QTH) relies on your geographic coordinates (latitude & longitude).
+    * **Usage:** Your GPS data is used to calculate your grid square, display your position on the map, and measure distances to other stations.
+    * **Security:** Location data is processed **locally on your device only**. It is not sent to or stored on our servers.
+* 🌐 **Internet Access (INTERNET):**
+    * **Why Necessary?** To display map data and perform APRS queries.
+    * **Usage:** Used to download map tiles from OpenStreetMap servers and fetch station info via the APRS.fi API.
+* 💾 **Storage & Gallery (Storage / MediaStore):**
+    * **Why Necessary?** To save the QTH card (QR Code image) you generate within the app to your device.
+    * **Usage:** Used only when you tap "Save QR Code" to add the generated image to your photo gallery.
 
 ### 2. Third-Party Services
 * **OpenStreetMap (OSM):** Provides map tiles. Your IP may be visible to OSM servers during tile requests.
