@@ -43,9 +43,4 @@ QTH Locator Premium is a modern, high-precision Android application designed spe
 *   **Java Development Kit (JDK) 17** or higher (required for building the project).
 *   Internet connection (required for Map tiles and APRS queries).
 
-### Installation
-1.  Download the latest APK from the Releases page (if available).
-2.  Or, clone this repository and build via Android Studio.
 
-```bash
-git clone https://github.com/yourusername/QTHLocator.git
