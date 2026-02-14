@@ -92,3 +92,5 @@
 +*   **Email:** info@algyazilim.com
 +*   **Web:** https://algyazilim.com
 +*   **Developer:** Fatih ÖNDER (TB1TFO - CekToR)
+
+[⬆ Başa Dön / Back to Top](#)
